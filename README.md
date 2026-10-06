@@ -1,4 +1,3 @@
-# Practical 6
 
 ## 1. Missionaries and Cannibals
 
@@ -179,7 +178,7 @@ for state in solution:
     print()
 ```
 
-# 7A Tic-Tac-Toe
+## 7A Tic-Tac-Toe
 
 ```markdown
 # Practical 7A
@@ -254,7 +253,7 @@ def game():
 
 game()
 
-# 7B  Shuffle Cards
+## 7B  Shuffle Cards
 
 ```python
 import random
@@ -276,7 +275,7 @@ for card in deck:
     print(card)
 ```
 
-# 8 Constraint Satisfaction Problem (Map Coloring).
+## 8 Constraint Satisfaction Problem (Map Coloring).
 
 ```python
 import itertools
