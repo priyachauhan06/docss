@@ -183,6 +183,8 @@ def queens():
 
 
 queens()
+
+o/p :Enter value of N: 4
 -------------------------------------------
 # 2b tower of hanoi
 
@@ -548,6 +550,8 @@ else:
         print("Resulting path:", result)
     else:
         print("Path not found")
+
+o/p: Enter source vertex: S
 -------------------------------------------------
 # 5a. Water Jug Prblm using bfs
 
