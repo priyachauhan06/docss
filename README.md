@@ -25,10 +25,9 @@ graph = {
 }
 
 print(dfs(graph, 'M', [], 'P'))
-```
+--------------------------------------------------------
 ##1b BFS - Breadth First Search
 
-```python
 import collections
 
 
@@ -114,7 +113,7 @@ for x in all_path('A', 'E', graph):
 
 print("\nShortest path of Graph is:",
       bfs_shortest_path(graph, 'A', 'E'))
-
+------------------------------------------------------------
 ##2a N-Queens Problem
 
 
@@ -184,7 +183,7 @@ def queens():
 
 
 queens()
-
+-------------------------------------------
 ##2b tower of hanoi
 
 A = [3, 2, 1]
@@ -298,7 +297,7 @@ best_score = minimax_alpha_beta(
 
 print(f"The best score is: {best_score}")
 
-
+----------------------------------------------------
 ##3b Hill Climbing
 
 
@@ -375,7 +374,7 @@ best_tour, best_cost = hill_climb()
 
 print("\nBest tour:", best_tour)
 print("\nBest Cost:", best_cost)
-
+---------------------------------------------------------------------
 ##4a.A* Algorithm
 
 graph = {
@@ -477,7 +476,7 @@ else:
         print("Path:", path)
     else:
         print("Path not found")
-
+--------------------------------------------------------
 #4b Greedy Best First Search
 
 graph = {
@@ -587,7 +586,7 @@ def water_jug_bfs():
     print("No solution found!")
 
 water_jug_bfs()
-
+-----------------------------------------------------------
 ##5b. Travelling Salesman Problem
 
 from itertools import permutations
@@ -618,7 +617,7 @@ for path in permutations(cities):
 
 print("Shortest path distance:", min_distance)
 print("Best path:", best_path)
-
+-----------------------------------------------------------
 ## 6a. Missionaries and Cannibals
 
 
@@ -707,7 +706,7 @@ print("Solution Path:")
 for state in solution:
     print(state)
 
-
+----------------------------------------------------------
 ## 6b 8-Puzzle using BFS
 
 
@@ -797,13 +796,13 @@ for state in solution:
 
     print()
 
-
+----------------------------------------------------------
 ## 7A Tic-Tac-Toe
 
 
 # Practical 7A
 
-```python
+
 board = ['' for _ in range(9)]
 player = 'X'
 
@@ -872,7 +871,7 @@ def game():
 
 
 game()
-
+------------------------------------------
 ## 7B  Shuffle Cards
 
 
@@ -894,7 +893,7 @@ print("Shuffled Deck of Cards:")
 for card in deck:
     print(card)
 
-
+-----------------------------------------------------------
 ## 8 Constraint Satisfaction Problem (Map Coloring).
 
 
@@ -999,7 +998,7 @@ def associative():
 
 
 associative()
-
+-----------------------------------------
 ##9b Distributive Law
 
 def distributive():
@@ -1048,7 +1047,7 @@ def distributive():
 
 
 distributive()
-
+-----------------------------------------------------------------------
 # PRACTICAL 10 - PREDICATES PROLOG 
 
 ## Q1. Batsman → Cricketer → Sportsman → Famous Person
