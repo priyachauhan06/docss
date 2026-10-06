@@ -1,4 +1,4 @@
-#1a Depth First Search (DFS)
+##1a Depth First Search (DFS)
 
 ```python
 import collections
@@ -26,7 +26,7 @@ graph = {
 
 print(dfs(graph, 'M', [], 'P'))
 ```
-#1b BFS - Breadth First Search
+##1b BFS - Breadth First Search
 
 ```python
 import collections
@@ -115,7 +115,7 @@ for x in all_path('A', 'E', graph):
 print("\nShortest path of Graph is:",
       bfs_shortest_path(graph, 'A', 'E'))
 ```
-#2a N-Queens Problem
+##2a N-Queens Problem
 
 ```python
 def print_board(board):
@@ -185,7 +185,7 @@ def queens():
 
 queens()
 ```
-#2b tower of hanoi
+##2b tower of hanoi
 ```python
 A = [3, 2, 1]
 B = []
@@ -376,7 +376,7 @@ best_tour, best_cost = hill_climb()
 print("\nBest tour:", best_tour)
 print("\nBest Cost:", best_cost)
 ```
-#A* Algorithm
+##4a.A* Algorithm
 ```python
 graph = {
     'A': ({'B': 5, 'C': 1}, 6),
