@@ -476,6 +476,13 @@ else:
         print("Path:", path)
     else:
         print("Path not found")
+
+
+        o/p
+        
+Enter source vertex: A
+Enter destination vertex: F
+Enter given heuristic value for source: 6
 --------------------------------------------------------
 # 4b Greedy Best First Search
 
