@@ -1,6 +1,6 @@
 ##1a Depth First Search (DFS)
 
-```python
+
 import collections
 
 def dfs(g, n, seen, d):
@@ -114,10 +114,10 @@ for x in all_path('A', 'E', graph):
 
 print("\nShortest path of Graph is:",
       bfs_shortest_path(graph, 'A', 'E'))
-```
+
 ##2a N-Queens Problem
 
-```python
+
 def print_board(board):
     for row in board:
         print(" ".join(row))
@@ -184,9 +184,9 @@ def queens():
 
 
 queens()
-```
+
 ##2b tower of hanoi
-```python
+
 A = [3, 2, 1]
 B = []
 C = []
@@ -226,10 +226,10 @@ display()
 
 print("\nCongratulations! You solved the Tower of Hanoi!!!")
 print("Total moves:", moves)
-```
+
 ##3a Alpha-Beta Pruning
 
-```python
+
 tree = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
@@ -297,11 +297,11 @@ best_score = minimax_alpha_beta(
 )
 
 print(f"The best score is: {best_score}")
-```
+
 
 ##3b Hill Climbing
 
-```python
+
 import random
 
 distance = [
@@ -375,9 +375,9 @@ best_tour, best_cost = hill_climb()
 
 print("\nBest tour:", best_tour)
 print("\nBest Cost:", best_cost)
-```
+
 ##4a.A* Algorithm
-```python
+
 graph = {
     'A': ({'B': 5, 'C': 1}, 6),
     'B': ({'C': 1}, 2),
@@ -477,9 +477,9 @@ else:
         print("Path:", path)
     else:
         print("Path not found")
-```
+
 #4b Greedy Best First Search
-```python
+
 graph = {
     'S': ({'A': 2, 'E': 3}, 6),
     'A': ({'S': 2, 'D': 1}, 3),
@@ -542,9 +542,9 @@ else:
         print("Resulting path:", result)
     else:
         print("Path not found")
-```
+
 ##5a. Water Jug Prblm using bfs
-```python
+
 from collections import deque
 
 def is_visited(state, visited):
@@ -587,9 +587,9 @@ def water_jug_bfs():
     print("No solution found!")
 
 water_jug_bfs()
-```
+
 ##5b. Travelling Salesman Problem
-```python
+
 from itertools import permutations
 
 dist = [
@@ -618,10 +618,10 @@ for path in permutations(cities):
 
 print("Shortest path distance:", min_distance)
 print("Best path:", best_path)
-```
+
 ## 6a. Missionaries and Cannibals
 
-```python
+
 from collections import deque
 
 
@@ -706,11 +706,11 @@ print("Solution Path:")
 
 for state in solution:
     print(state)
-```
+
 
 ## 6b 8-Puzzle using BFS
 
-```python
+
 from collections import deque
 
 
@@ -796,11 +796,11 @@ for state in solution:
         print(state[i:i + 3])
 
     print()
-```
+
 
 ## 7A Tic-Tac-Toe
 
-```markdown
+
 # Practical 7A
 
 ```python
@@ -872,10 +872,10 @@ def game():
 
 
 game()
-```
+
 ## 7B  Shuffle Cards
 
-```python
+
 import random
 
 # Step 1: Create the deck
@@ -893,11 +893,11 @@ print("Shuffled Deck of Cards:")
 
 for card in deck:
     print(card)
-```
+
 
 ## 8 Constraint Satisfaction Problem (Map Coloring).
 
-```python
+
 import itertools
 
 variables = ['A', 'B', 'C']
@@ -926,9 +926,9 @@ print("Valid Colorings of the map:")
 
 for sol in solutions:
     print(sol)
-```
+
 ##9a Associative law
-```python
+
 def associative():
     # Associative Law for Addition
     print("Associative law for Addition")
@@ -999,9 +999,9 @@ def associative():
 
 
 associative()
-```
+
 ##9b Distributive Law
-```python
+
 def distributive():
     a = int(input("Enter value of a: "))
     b = int(input("Enter value of b: "))
@@ -1048,7 +1048,7 @@ def distributive():
 
 
 distributive()
-```
+
 # PRACTICAL 10 - PREDICATES PROLOG 
 
 ## Q1. Batsman → Cricketer → Sportsman → Famous Person
@@ -1083,7 +1083,7 @@ famous(X) :- sportsman(X).
 
 ### Queries:
 
-```prolog
+
 ?- cricketer(sachin).
 true.
 
@@ -1127,11 +1127,11 @@ teacher(rahul).
 employee(X) :- teacher(X).
 human(X) :- employee(X).
 livingbeing(X) :- human(X).
-```
+
 
 ### Queries:
 
-```prolog
+
 ?- human(anita).
 true.
 
@@ -1159,7 +1159,7 @@ Riya, Amit, Sam and Neha.
 
 ### Code:
 
-```prolog
+
 student(riya).
 student(amit).
 student(sam).
@@ -1168,11 +1168,11 @@ student(neha).
 learner(X) :- student(X).
 knowledgeseeker(X) :- learner(X).
 futureprofessional(X) :- knowledgeseeker(X).
-```
+
 
 ### Queries:
 
-```prolog
+
 ?- learner(riya).
 true.
 
@@ -1200,7 +1200,7 @@ Tommy, Bruno, Lucy and Rocky.
 
 ### Code:
 
-```prolog
+
 dog(tommy).
 dog(bruno).
 dog(lucy).
@@ -1209,11 +1209,11 @@ dog(rocky).
 animal(X) :- dog(X).
 pet(X) :- animal(X).
 livingbeing(X) :- pet(X).
-```
+
 
 ### Queries:
 
-```prolog
+
 ?- pet(tommy).
 true.
 
@@ -1241,7 +1241,7 @@ Physics, Math, History and Computer.
 
 ### Code:
 
-```prolog
+
 book(physics).
 book(math).
 book(history).
@@ -1250,11 +1250,11 @@ book(computer).
 knowledgesource(X) :- book(X).
 educationalmaterial(X) :- knowledgesource(X).
 valuableresource(X) :- educationalmaterial(X).
-```
+
 
 ### Queries:
 
-```prolog
+
 ?- educationalmaterial(math).
 true.
 
@@ -1285,7 +1285,7 @@ Define rules for:
 
 ### Code:
 
-```prolog
+
 male(john).
 male(mike).
 male(david).
@@ -1330,4 +1330,4 @@ ancestor(A, C) :-
 ancestor(A, C) :-
     parent(A, P),
     ancestor(P, C).
-```
+
