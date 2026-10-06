@@ -1,4 +1,4 @@
-##1a Depth First Search (DFS)
+#1a Depth First Search (DFS)
 
 
 import collections
@@ -26,7 +26,7 @@ graph = {
 
 print(dfs(graph, 'M', [], 'P'))
 --------------------------------------------------------
-##1b BFS - Breadth First Search
+#1b BFS - Breadth First Search
 
 import collections
 
@@ -114,7 +114,7 @@ for x in all_path('A', 'E', graph):
 print("\nShortest path of Graph is:",
       bfs_shortest_path(graph, 'A', 'E'))
 ------------------------------------------------------------
-##2a N-Queens Problem
+#2a N-Queens Problem
 
 
 def print_board(board):
@@ -184,7 +184,7 @@ def queens():
 
 queens()
 -------------------------------------------
-##2b tower of hanoi
+#2b tower of hanoi
 
 A = [3, 2, 1]
 B = []
@@ -298,7 +298,7 @@ best_score = minimax_alpha_beta(
 print(f"The best score is: {best_score}")
 
 ----------------------------------------------------
-##3b Hill Climbing
+#3b Hill Climbing
 
 
 import random
@@ -375,7 +375,7 @@ best_tour, best_cost = hill_climb()
 print("\nBest tour:", best_tour)
 print("\nBest Cost:", best_cost)
 ---------------------------------------------------------------------
-##4a.A* Algorithm
+#4a.A* Algorithm
 
 graph = {
     'A': ({'B': 5, 'C': 1}, 6),
@@ -541,8 +541,8 @@ else:
         print("Resulting path:", result)
     else:
         print("Path not found")
-
-##5a. Water Jug Prblm using bfs
+-------------------------------------------------
+#5a. Water Jug Prblm using bfs
 
 from collections import deque
 
@@ -618,7 +618,7 @@ for path in permutations(cities):
 print("Shortest path distance:", min_distance)
 print("Best path:", best_path)
 -----------------------------------------------------------
-## 6a. Missionaries and Cannibals
+# 6a. Missionaries and Cannibals
 
 
 from collections import deque
