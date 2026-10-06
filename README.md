@@ -1049,7 +1049,7 @@ def distributive():
 distributive()
 -----------------------------------------------------------------------
 # PRACTICAL 10 - PREDICATES PROLOG 
-
+(WE HAVE TO PERFORM THIS IN SWI-PROLOG WHICH IS IN ITDSCA32 machine VM)
 ## Q1. Batsman → Cricketer → Sportsman → Famous Person
 
 Write a Prolog program with the following:
