@@ -225,7 +225,7 @@ display()
 
 print("\nCongratulations! You solved the Tower of Hanoi!!!")
 print("Total moves:", moves)
-
+----------------------------------------------------------------------
 ##3a Alpha-Beta Pruning
 
 
