@@ -936,7 +936,7 @@ print("Valid Colorings of the map:")
 
 for sol in solutions:
     print(sol)
-
+--------------------------------------------------------------
 ##9a Associative law
 
 def associative():
